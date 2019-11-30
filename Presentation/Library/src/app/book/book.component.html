@@ -1,0 +1,81 @@
+<div class="col-md-3"></div>
+
+<div class="row" [hidden]="!hiddenAdd">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <div>
+      <h2>Add</h2>
+
+      <div class="form-group">
+        <label for="Name">Name:</label>
+        <input placeholder="Name" name="name" class="form-control" id="name" [(ngModel)]="book.name">
+      </div>
+      <div class="form-group">
+        <label for="Author">Author:</label>
+        <select class="form-control" [(ngModel)]="idAuthor">
+          <option [value]="a.id" *ngFor="let a of authors"> {{a.name}}</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="Category">Category:</label>
+        <select class="form-control" [(ngModel)]="idCategory">
+          <option [value]="a.id" *ngFor="let a of categories"> {{a.name}}</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="isbn">ISBN:</label>
+        <input placeholder="isbn" name="isbn" class="form-control" id="isbn" [(ngModel)]="book.isbn">
+      </div>
+
+
+
+      <button class="btn btn-success" role="button" (click)="addBook()">Save</button>
+      <button class="btn btn-danger" role="button" (click)="cancelAddBook()">Cancel</button>
+    </div>
+  </div>
+  <div class="col-md-4"></div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-2"><button class="btn btn-danger" (click)="showAddBook()"> Add Book</button></div>
+  <div class="col-md-6">
+    
+    <input placeholder="search" name="text" class="form-control" id="text" [(ngModel)]="text">
+   
+  </div>
+  <div class="col-md-2"> <button class="btn btn-success" (click)="searchBook()"> Search</button></div>
+  <br>
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <div align="center" [hidden]="hiddenAdd">
+
+      <table class="table">
+
+        <tr>
+          <td>Id</td>
+          <td>Name</td>
+          <td>Author</td>
+          <td>Category</td>
+          <td>ISBN</td>
+          <td>Delete</td>
+          <td>Edit</td>
+        </tr>
+        <tr *ngFor="let e of listBooks">
+          <td>{{e.id}}</td>
+          <td>{{e.name}}</td>
+          <td>{{e.author.name}}</td>
+          <td>{{e.category.name}}</td>
+          <td>{{e.isbn}}</td>
+          <td><button class="btn btn-danger" (click)="deleteBook(e)"> Delete</button></td>
+          <td><button class="btn btn-info" (click)="editBook(e)" style="margin-left: 20px;"> Edit</button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-2"></div>
+
+</div>
+
+<div class="col-md-3"></div>

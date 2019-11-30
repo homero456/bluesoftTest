@@ -1,0 +1,14 @@
+C:\Users\rvalencia\source\repos\Library\Api\bin\Debug\netcoreapp2.2\ApiLibrary.deps.json
+C:\Users\rvalencia\source\repos\Library\Api\bin\Debug\netcoreapp2.2\ApiLibrary.runtimeconfig.json
+C:\Users\rvalencia\source\repos\Library\Api\bin\Debug\netcoreapp2.2\ApiLibrary.runtimeconfig.dev.json
+C:\Users\rvalencia\source\repos\Library\Api\bin\Debug\netcoreapp2.2\ApiLibrary.dll
+C:\Users\rvalencia\source\repos\Library\Api\bin\Debug\netcoreapp2.2\ApiLibrary.pdb
+C:\Users\rvalencia\source\repos\Library\Api\obj\Debug\netcoreapp2.2\ApiLibrary.csprojAssemblyReference.cache
+C:\Users\rvalencia\source\repos\Library\Api\obj\Debug\netcoreapp2.2\ApiLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rvalencia\source\repos\Library\Api\obj\Debug\netcoreapp2.2\ApiLibrary.RazorAssemblyInfo.cache
+C:\Users\rvalencia\source\repos\Library\Api\obj\Debug\netcoreapp2.2\ApiLibrary.RazorAssemblyInfo.cs
+C:\Users\rvalencia\source\repos\Library\Api\obj\Debug\netcoreapp2.2\ApiLibrary.AssemblyInfoInputs.cache
+C:\Users\rvalencia\source\repos\Library\Api\obj\Debug\netcoreapp2.2\ApiLibrary.AssemblyInfo.cs
+C:\Users\rvalencia\source\repos\Library\Api\obj\Debug\netcoreapp2.2\ApiLibrary.RazorTargetAssemblyInfo.cache
+C:\Users\rvalencia\source\repos\Library\Api\obj\Debug\netcoreapp2.2\ApiLibrary.dll
+C:\Users\rvalencia\source\repos\Library\Api\obj\Debug\netcoreapp2.2\ApiLibrary.pdb

@@ -1,0 +1,8 @@
+C:\Users\rvalencia\source\repos\Library\Data\SQL\DBLibrary\bin\Debug\netcoreapp2.2\DBLibrary.deps.json
+C:\Users\rvalencia\source\repos\Library\Data\SQL\DBLibrary\bin\Debug\netcoreapp2.2\DBLibrary.dll
+C:\Users\rvalencia\source\repos\Library\Data\SQL\DBLibrary\bin\Debug\netcoreapp2.2\DBLibrary.pdb
+C:\Users\rvalencia\source\repos\Library\Data\SQL\DBLibrary\obj\Debug\netcoreapp2.2\DBLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rvalencia\source\repos\Library\Data\SQL\DBLibrary\obj\Debug\netcoreapp2.2\DBLibrary.AssemblyInfoInputs.cache
+C:\Users\rvalencia\source\repos\Library\Data\SQL\DBLibrary\obj\Debug\netcoreapp2.2\DBLibrary.AssemblyInfo.cs
+C:\Users\rvalencia\source\repos\Library\Data\SQL\DBLibrary\obj\Debug\netcoreapp2.2\DBLibrary.dll
+C:\Users\rvalencia\source\repos\Library\Data\SQL\DBLibrary\obj\Debug\netcoreapp2.2\DBLibrary.pdb

@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{863ECAE1-A65E-4CB2-BD7D-5E4995AF48A9}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5DEFE4C3-0591-4E44-8A4C-B7514292A0CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{87ECA60B-7873-4AE0-B0F7-43F611617DC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{BA6FC14A-11E6-4879-AE4E-ACC71E767E10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Api.ApiLibrary", "Api\Library.Api.ApiLibrary.csproj", "{5A80F8BD-DC9F-418F-A9EA-B7F861647735}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{170E898B-612E-46BA-A34B-2218B84FA581}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Data.SQL.DBLibrary", "Data\SQL\DBLibrary\Library.Data.SQL.DBLibrary.csproj", "{9EC9FC63-A383-4A20-870E-4F25CAFA619F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Core.Models", "Core\Library.Core.Models\Library.Core.Models.csproj", "{A4286977-F3EE-446E-916F-55734528CE04}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Library", "Presentation\Library\", "{B572944E-99FA-41C5-BA31-7401536D84D8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60449"
+		Debug.AspNetCompiler.PhysicalPath = "Presentation\Library\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60449\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60449"
+		Release.AspNetCompiler.PhysicalPath = "Presentation\Library\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60449\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60449"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A80F8BD-DC9F-418F-A9EA-B7F861647735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A80F8BD-DC9F-418F-A9EA-B7F861647735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A80F8BD-DC9F-418F-A9EA-B7F861647735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A80F8BD-DC9F-418F-A9EA-B7F861647735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC9FC63-A383-4A20-870E-4F25CAFA619F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC9FC63-A383-4A20-870E-4F25CAFA619F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC9FC63-A383-4A20-870E-4F25CAFA619F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC9FC63-A383-4A20-870E-4F25CAFA619F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4286977-F3EE-446E-916F-55734528CE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4286977-F3EE-446E-916F-55734528CE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4286977-F3EE-446E-916F-55734528CE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4286977-F3EE-446E-916F-55734528CE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B572944E-99FA-41C5-BA31-7401536D84D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B572944E-99FA-41C5-BA31-7401536D84D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B572944E-99FA-41C5-BA31-7401536D84D8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B572944E-99FA-41C5-BA31-7401536D84D8}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A80F8BD-DC9F-418F-A9EA-B7F861647735} = {863ECAE1-A65E-4CB2-BD7D-5E4995AF48A9}
+		{170E898B-612E-46BA-A34B-2218B84FA581} = {BA6FC14A-11E6-4879-AE4E-ACC71E767E10}
+		{9EC9FC63-A383-4A20-870E-4F25CAFA619F} = {170E898B-612E-46BA-A34B-2218B84FA581}
+		{A4286977-F3EE-446E-916F-55734528CE04} = {5DEFE4C3-0591-4E44-8A4C-B7514292A0CE}
+		{B572944E-99FA-41C5-BA31-7401536D84D8} = {87ECA60B-7873-4AE0-B0F7-43F611617DC0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DF01B30-D520-4B44-9B69-3A66ACCEDED8}
+	EndGlobalSection
+EndGlobal

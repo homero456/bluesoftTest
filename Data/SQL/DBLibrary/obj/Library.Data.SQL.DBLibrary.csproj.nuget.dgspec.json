@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rvalencia\\source\\repos\\Library\\Data\\SQL\\DBLibrary\\Library.Data.SQL.DBLibrary.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rvalencia\\source\\repos\\Library\\Core\\Library.Core.Models\\Library.Core.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rvalencia\\source\\repos\\Library\\Core\\Library.Core.Models\\Library.Core.Models.csproj",
+        "projectName": "Library.Core.Models",
+        "projectPath": "C:\\Users\\rvalencia\\source\\repos\\Library\\Core\\Library.Core.Models\\Library.Core.Models.csproj",
+        "packagesPath": "C:\\Users\\rvalencia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rvalencia\\source\\repos\\Library\\Core\\Library.Core.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rvalencia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\rvalencia\\source\\repos\\Library\\Data\\SQL\\DBLibrary\\Library.Data.SQL.DBLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rvalencia\\source\\repos\\Library\\Data\\SQL\\DBLibrary\\Library.Data.SQL.DBLibrary.csproj",
+        "projectName": "Library.Data.SQL.DBLibrary",
+        "projectPath": "C:\\Users\\rvalencia\\source\\repos\\Library\\Data\\SQL\\DBLibrary\\Library.Data.SQL.DBLibrary.csproj",
+        "packagesPath": "C:\\Users\\rvalencia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rvalencia\\source\\repos\\Library\\Data\\SQL\\DBLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rvalencia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\rvalencia\\source\\repos\\Library\\Core\\Library.Core.Models\\Library.Core.Models.csproj": {
+                "projectPath": "C:\\Users\\rvalencia\\source\\repos\\Library\\Core\\Library.Core.Models\\Library.Core.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

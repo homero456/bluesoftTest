@@ -19,6 +19,8 @@ Una vez finalizado este proceso vamos y colocamos por defecto el proyecto  `Libr
 ### Ejecutar proyecto
 Una vez hayamos configurado la cadena de conexión y hayamos ejecutado el el comando actualizamos paquetes de NPM, abrimos una consola en la ruta `Library\Presentation\Library` ejecutamos comando *npm install* corremos el proyecto web.
 
+### Configurar Postman:
+Para  realizar las pruebas a los servicios se debe tener una cuenta en postman con el fin de adicionar el proyecto a la aplicación consola.  Para acceder una vez tengas una cuenta con postman es a través del soguiente link:  `https://www.getpostman.com/collections/19241c90bdf45ffad424` 
 
 
 
